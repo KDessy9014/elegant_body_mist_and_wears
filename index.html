@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peach & White | Premium Fashion Store</title>
+    <title>Home | Elegant Body Mists and Wears</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,20 +11,6 @@
             padding: 0;
             background-color: #fffaf9;
             color: #444;
-        }
-
-        header {
-            background-color: #ffdab9; 
-            padding: 2rem;
-            text-align: center;
-            border-bottom: 5px solid #fff;
-        }
-
-        header h1 {
-            margin: 0;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 3px;
         }
 
         /* Navigation Style */
@@ -47,93 +33,88 @@
             font-size: 0.9rem;
         }
 
-        nav a:hover {
-            color: #333;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
-
-        .product-card {
-            background: #fff;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(255, 218, 185, 0.3);
-            transition: transform 0.3s ease;
+        /* Hero Banner Section */
+        .hero {
+            background: linear-gradient(rgba(255, 218, 185, 0.6), rgba(255, 218, 185, 0.6)), 
+                        url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200');
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            border: 1px solid #ffdab9;
+            color: white;
+            border-bottom: 5px solid #fff;
         }
 
-        .product-card:hover { transform: translateY(-10px); }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            text-transform: uppercase;
+        }
 
-        .product-card img { width: 100%; height: 250px; object-fit: cover; }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 15px 0 25px;
+        }
 
-        .product-info { padding: 15px; }
-
-        .product-info h3 { margin: 10px 0; color: #ff8c69; }
-
-        .price { font-size: 1.2rem; font-weight: bold; margin-bottom: 15px; }
-
-        .whatsapp-btn {
-            display: inline-block;
-            background-color: #ffdab9;
-            color: #444;
-            padding: 10px 20px;
+        .shop-now-btn {
+            background-color: #fff;
+            color: #ff8c69;
+            padding: 15px 40px;
             text-decoration: none;
-            border-radius: 25px;
             font-weight: bold;
-            border: 1px solid #ff8c69;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .shop-now-btn:hover {
+            background-color: #ff8c69;
+            color: #fff;
+        }
+
+        .welcome-text {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            padding: 0 20px;
         }
 
         footer {
             text-align: center;
             padding: 2rem;
             background: #fff;
-            margin-top: 40px;
             border-top: 1px solid #ffdab9;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Our Fashion Collection</h1>
-</header>
-
 <nav>
     <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About Us</a>
     <a href="contact.html">Contact Us</a>
 </nav>
 
-<div class="container">
-    <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500" alt="T-Shirt">
-        <div class="product-info">
-            <h3>Classic T-Shirts</h3>
-            <p class="price">$20.00</p>
-            <a href="https://wa.me/233209851942?text=Hi! I want to order the T-Shirt" class="whatsapp-btn">Order on WhatsApp</a>
-        </div>
-    </div>
+<section class="hero">
+    <h1>Elegant Body Mists and Wears</h1>
+    <p>Discover Your Signature Style & Scent</p>
+    <a href="gallery.html" class="shop-now-btn">Shop Now</a>
+</section>
 
-    <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500" alt="Sneakers">
-        <div class="product-info">
-            <h3>Premium Sneakers</h3>
-            <p class="price">$85.00</p>
-            <a href="https://wa.me/233209851942?text=Hi! I want to order the Sneakers" class="whatsapp-btn">Order on WhatsApp</a>
-        </div>
-    </div>
-    
-    </div>
+<div class="welcome-text">
+    <h2>Welcome to Elegance</h2>
+    <p>We provide the best T-shirts, Sneakers, Lacoste, and designer Perfumes to keep you looking and smelling your absolute best. High quality, affordable prices, and direct WhatsApp ordering.</p>
+</div>
 
 <footer>
-    <p>&copy; 2024 Your Fashion Store. All Rights Reserved.</p>
+    <p>&copy; 2026 Elegant Body Mists and Wears. All Rights Reserved.</p>
 </footer>
 
 </body>
