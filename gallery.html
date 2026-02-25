@@ -63,41 +63,29 @@
             border: 1px solid #ffdab9;
             text-align: center;
             padding-bottom: 20px;
+            transition: 0.3s;
         }
 
         .gallery-item img {
             width: 100%;
             height: 300px;
             object-fit: cover;
-            background-color: #fceee9; /* Placeholder color if image fails */
+            background-color: #fceee9;
         }
 
         .item-info { padding: 15px; }
-
-        .item-name {
-            font-size: 1.2rem;
-            font-weight: bold;
-            display: block;
-            color: #ff8c69;
-            margin-bottom: 5px;
-        }
-
-        .item-price {
-            font-size: 1.1rem;
-            color: #333;
-            font-weight: 700;
-            margin-bottom: 15px;
-            display: block;
-        }
+        .item-name { font-weight: bold; color: #ff8c69; display: block; margin-bottom: 5px; }
+        .item-price { font-weight: 700; display: block; margin-bottom: 15px; }
 
         .order-btn {
             display: inline-block;
             background-color: #25D366;
             color: white;
-            padding: 12px 25px;
+            padding: 10px 20px;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
+            font-size: 0.9rem;
         }
 
         footer {
@@ -123,30 +111,85 @@
 </nav>
 
 <div class="gallery-container">
+    
     <div class="gallery-item">
-        <img src="tshirt1.jpg" alt="T-Shirt">
+        <img src="tshirt1.jpg" alt="T-Shirt 1">
         <div class="item-info">
-            <span class="item-name">Premium T-Shirt</span>
+            <span class="item-name">Premium T-Shirt (Style 1)</span>
             <span class="item-price">GHS 80 - GHS 150</span>
-            <a href="https://wa.me/233209851942?text=Hello! I want to order this T-Shirt. I am sending the screenshot now..." class="order-btn">Tap to Order</a>
+            <a href="https://wa.me/233209851942?text=I want to order tshirt1.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
         </div>
     </div>
 
     <div class="gallery-item">
-        <img src="perfumes1.jpg" alt="Perfumes">
+        <img src="tshirts2.jpg" alt="T-Shirt 2">
         <div class="item-info">
-            <span class="item-name">Designer Perfume</span>
-            <span class="item-price">GHS 60 - GHS 100</span>
-            <a href="https://wa.me/233209851942?text=Hello! I want to order this Perfume. I am sending the screenshot now..." class="order-btn">Tap to Order</a>
+            <span class="item-name">Premium T-Shirt (Style 2)</span>
+            <span class="item-price">GHS 80 - GHS 150</span>
+            <a href="https://wa.me/233209851942?text=I want to order tshirts2.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
         </div>
     </div>
 
     <div class="gallery-item">
-        <img src="sneakers1.jpg" alt="Sneakers">
+        <img src="sneakers1.jpg" alt="Sneakers 1">
         <div class="item-info">
-            <span class="item-name">Latest Sneakers</span>
+            <span class="item-name">Sneakers (Style 1)</span>
             <span class="item-price">GHS 120 - GHS 300</span>
-            <a href="https://wa.me/233209851942?text=Hello! I want to order these Sneakers. I am sending the screenshot now..." class="order-btn">Tap to Order</a>
+            <a href="https://wa.me/233209851942?text=I want to order sneakers1.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="sneakers2.jpg" alt="Sneakers 2">
+        <div class="item-info">
+            <span class="item-name">Sneakers (Style 2)</span>
+            <span class="item-price">GHS 120 - GHS 300</span>
+            <a href="https://wa.me/233209851942?text=I want to order sneakers2.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="perfumes1.jpg" alt="Perfumes 1">
+        <div class="item-info">
+            <span class="item-name">Perfume (Bottle 1)</span>
+            <span class="item-price">GHS 60 - GHS 100</span>
+            <a href="https://wa.me/233209851942?text=I want to order perfumes1.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="perfumes2.jpg" alt="Perfumes 2">
+        <div class="item-info">
+            <span class="item-name">Perfume (Bottle 2)</span>
+            <span class="item-price">GHS 60 - GHS 100</span>
+            <a href="https://wa.me/233209851942?text=I want to order perfumes2.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="mirrorshoe1.jpg" alt="Mirror Shoe 1">
+        <div class="item-info">
+            <span class="item-name">Mirror Shoe (A)</span>
+            <span class="item-price">GHS 250 - GHS 350</span>
+            <a href="https://wa.me/233209851942?text=I want to order mirrorshoe1.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="mirrorshoe2.jpg" alt="Mirror Shoe 2">
+        <div class="item-info">
+            <span class="item-name">Mirror Shoe (B)</span>
+            <span class="item-price">GHS 250 - GHS 350</span>
+            <a href="https://wa.me/233209851942?text=I want to order mirrorshoe2.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="trousers1.jpg" alt="Trousers 1">
+        <div class="item-info">
+            <span class="item-name">Trousers (Style 1)</span>
+            <span class="item-price">GHS 100 - GHS 200</span>
+            <a href="https://wa.me/233209851942?text=I want to order trousers1.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
         </div>
     </div>
 
@@ -155,36 +198,19 @@
         <div class="item-info">
             <span class="item-name">Lacoste Polo</span>
             <span class="item-price">GHS 100 - GHS 200</span>
-            <a href="https://wa.me/233209851942?text=Hello! I want to order this Lacoste. I am sending the screenshot now..." class="order-btn">Tap to Order</a>
-        </div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="mirrorshoe1.jpg" alt="Mirror Shoes">
-        <div class="item-info">
-            <span class="item-name">Mirror Shoes</span>
-            <span class="item-price">GHS 250 - GHS 350</span>
-            <a href="https://wa.me/233209851942?text=Hello! I want to order these Mirror Shoes. I am sending the screenshot now..." class="order-btn">Tap to Order</a>
-        </div>
-    </div>
-
-    <div class="gallery-item">
-        <img src="trousers1.jpg" alt="Trousers">
-        <div class="item-info">
-            <span class="item-name">Stylish Trousers</span>
-            <span class="item-price">GHS 100 - GHS 200</span>
-            <a href="https://wa.me/233209851942?text=Hello! I want to order these Trousers. I am sending the screenshot now..." class="order-btn">Tap to Order</a>
+            <a href="https://wa.me/233209851942?text=I want to order lacoste1.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
         </div>
     </div>
 
     <div class="gallery-item">
         <img src="jerseys1.jpg" alt="Jerseys">
         <div class="item-info">
-            <span class="item-name">Club Jersey</span>
+            <span class="item-name">Sports Jersey</span>
             <span class="item-price">GHS 100 - GHS 150</span>
-            <a href="https://wa.me/233209851942?text=Hello! I want to order this Jersey. I am sending the screenshot now..." class="order-btn">Tap to Order</a>
+            <a href="https://wa.me/233209851942?text=I want to order jerseys1.jpg. Sending screenshot now..." class="order-btn">Order on WhatsApp</a>
         </div>
     </div>
+
 </div>
 
 <footer>
