@@ -35,54 +35,47 @@
 
         /* Hero Banner Section */
         .hero {
-            background: linear-gradient(rgba(255, 218, 185, 0.6), rgba(255, 218, 185, 0.6)), 
+            background: linear-gradient(rgba(255, 218, 185, 0.7), rgba(255, 218, 185, 0.7)), 
                         url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200');
             background-size: cover;
             background-position: center;
-            height: 450px;
+            height: 400px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
             color: white;
-            border-bottom: 5px solid #fff;
         }
 
-        .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            text-transform: uppercase;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            margin: 15px 0 25px;
-        }
+        .hero h1 { font-size: 2.5rem; margin: 0; text-transform: uppercase; }
 
         .shop-now-btn {
             background-color: #fff;
             color: #ff8c69;
-            padding: 15px 40px;
+            padding: 12px 35px;
             text-decoration: none;
             font-weight: bold;
             border-radius: 50px;
-            font-size: 1.1rem;
+            margin-top: 20px;
             transition: 0.3s;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        .shop-now-btn:hover {
-            background-color: #ff8c69;
-            color: #fff;
-        }
+        .shop-now-btn:hover { background-color: #ff8c69; color: #fff; }
 
-        .welcome-text {
+        .welcome-section {
             max-width: 800px;
-            margin: 50px auto;
+            margin: 60px auto;
             text-align: center;
             padding: 0 20px;
+        }
+
+        .explore-btn {
+            display: inline-block;
+            margin-top: 20px;
+            color: #ff8c69;
+            text-decoration: underline;
+            font-weight: bold;
         }
 
         footer {
@@ -104,13 +97,14 @@
 
 <section class="hero">
     <h1>Elegant Body Mists and Wears</h1>
-    <p>Discover Your Signature Style & Scent</p>
+    <p>Premium Quality. Signature Scents.</p>
     <a href="gallery.html" class="shop-now-btn">Shop Now</a>
 </section>
 
-<div class="welcome-text">
-    <h2>Welcome to Elegance</h2>
-    <p>We provide the best T-shirts, Sneakers, Lacoste, and designer Perfumes to keep you looking and smelling your absolute best. High quality, affordable prices, and direct WhatsApp ordering.</p>
+<div class="welcome-section">
+    <h2>Your Style, Our Priority</h2>
+    <p>Step into a world of fashion and fragrance. We offer the finest selection of wear and mists tailored for your elegance.</p>
+    <a href="gallery.html" class="explore-btn">Explore More Items</a>
 </div>
 
 <footer>
